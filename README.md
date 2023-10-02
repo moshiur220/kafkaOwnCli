@@ -3,6 +3,7 @@
 node kafka-cli.js create-topic -tc mos-topic -np 2
 
 # To create a Kafka topic
+```bash
 node kafka-cli.js create-topic -tc mos-topic -np 2
 
 # To list Kafka topics
