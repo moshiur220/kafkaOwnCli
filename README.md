@@ -38,8 +38,8 @@ Description: Describe a specific Kafka topic.
 Options:
 
 -t, --topic <topicName>: Name of the topic to describe.
-Example:
-    ```shell
+# Example:
+  
     node kafka-cli.js describe-topic -t my-topic
 
 # delete-topic (dt)
@@ -48,8 +48,8 @@ Description: Delete a specific Kafka topic.
 Options:
 
 -t, --topic <topicName>: Name of the topic to delete.
-Example:
-    ```shell
+# Example:
+    
     node kafka-cli.js delete-topic -t my-topic
 
 # read-message (rm)
@@ -58,8 +58,8 @@ Description: Consume messages from a Kafka topic.
 Options:
 
 -t, --topic <topicName>: Name of the topic to read messages from.
-Example:
-    ```shell
+# Example:
+   
     node kafka-cli.js read-message -t my-topic
 
 # produce-message (pm)
@@ -71,6 +71,5 @@ Options:
 -mk, --message-key <key>: Message key.
 -m, --message <message>: Message content.
 
-Example:
-    ```shell
+# Example:
     node kafka-cli.js produce-message -mt my-topic -mk test -m "message content"
