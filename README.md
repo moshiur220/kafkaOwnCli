@@ -22,14 +22,14 @@ Options:
  To create a Kafka topic:
 
  # Example:
-    ```shell
+
     node kafka-cli.js create-topic -tc my-topic -np 2
 
 # list-topics (lt)
 Description: List all Kafka topics.
 
-Example:
-    ```shell
+# Example:
+  
     node kafka-cli.js list-topics
 
 # describe-topic (des)
