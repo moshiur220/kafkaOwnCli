@@ -21,7 +21,7 @@ Options:
 -np, --num-partitions <numPartitions>: Number of partitions for the topic.
  To create a Kafka topic:
 
- Example:
+ # Example:
     ```shell
     node kafka-cli.js create-topic -tc my-topic -np 2
 
