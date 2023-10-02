@@ -1,14 +1,17 @@
-// createKafkaTopic
-// node app.js -tc mos-topic -np 2
+# To create a Kafka topic
+node kafka-cli.js create-topic -tc mos-topic -np 2
 
-// listKafkaTopics
-// node app.js -tl list
+# To list Kafka topics
+node kafka-cli.js list-topics
 
-// describeKafkaTopic
-// node app.js -des mos-topic
+# To describe a Kafka topic
+node kafka-cli.js describe-topic -t mos-topic
 
-// deleteKafkaTopic
-// node app.js -d mos-topic
+# To delete a Kafka topic
+node kafka-cli.js delete-topic -t mos-topic
 
-// produceMessage
-// node app.js -mt my-topic -mk test -m "message this is "
+# To produce a message to a Kafka topic
+node kafka-cli.js produce-message -mt my-topic -mk test -m "message this is"
+
+# To consume messages from a Kafka topic
+node kafka-cli.js read-message -t <topicName>
