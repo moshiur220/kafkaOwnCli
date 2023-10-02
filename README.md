@@ -1,4 +1,4 @@
-create-topic (ct)
+# create-topic (ct)
 Description: Create a Kafka topic with the specified name and number of partitions.
 
 Options:
@@ -10,13 +10,13 @@ Options:
  Example:
 node kafka-cli.js create-topic -tc my-topic -np 2
 
-list-topics (lt)
+# list-topics (lt)
 Description: List all Kafka topics.
 
 Example:
 node kafka-cli.js list-topics
 
-describe-topic (des)
+# describe-topic (des)
 Description: Describe a specific Kafka topic.
 
 Options:
@@ -25,7 +25,7 @@ Options:
 Example:
 node kafka-cli.js describe-topic -t my-topic
 
-delete-topic (dt)
+# delete-topic (dt)
 Description: Delete a specific Kafka topic.
 
 Options:
@@ -34,7 +34,7 @@ Options:
 Example:
 node kafka-cli.js delete-topic -t my-topic
 
-read-message (rm)
+# read-message (rm)
 Description: Consume messages from a Kafka topic.
 
 Options:
@@ -43,7 +43,7 @@ Options:
 Example:
 node kafka-cli.js read-message -t my-topic
 
-produce-message (pm)
+# produce-message (pm)
 Description: Produce a message to a Kafka topic with a specified key and content.
 
 Options:
