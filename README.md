@@ -1,3 +1,17 @@
+# Kafka Command-Line Utility
+
+A simple command-line Kafka utility for performing various Kafka operations. This utility is built using Node.js and the KafkaJS library.
+
+## Installation
+
+Before using this utility, make sure you have Node.js installed. Then, follow these steps to set up the utility:
+
+1. Clone this repository:
+   ```shell
+   git clone https://github.com/moshiur220/kafkaOwnCli.git 
+
+2. docker-compose up -d
+3. npm install
 # create-topic (ct)
 Description: Create a Kafka topic with the specified name and number of partitions.
 
@@ -51,5 +65,6 @@ Options:
 -mt, --message-topic <topicName>: Name of the target topic to produce the message to.
 -mk, --message-key <key>: Message key.
 -m, --message <message>: Message content.
+
 Example:
 node kafka-cli.js produce-message -mt my-topic -mk test -m "message content"
