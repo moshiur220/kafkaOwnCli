@@ -1,3 +1,4 @@
+![Kafka Node](./simple.png)
 # Kafka Command-Line Utility
 
 A simple command-line Kafka utility for performing various Kafka operations. This utility is built using Node.js and the KafkaJS library.
